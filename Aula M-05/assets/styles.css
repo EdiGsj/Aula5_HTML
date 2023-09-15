@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 116, 14);
+}
+.menu {
+    background-color: purple;
+    padding: 5px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.menu a:hover {
+    font-size: 35px;
+    color: rgba(255, 255, 0, 0.596);
+}
+.perfil {
+    background-color: aquamarine;
+}
+.perfil img {
+    width: 100px;
+    height: 100px;
+    font: 30px;
+    border-radius: 100%;
+}
